@@ -1,5 +1,9 @@
 # langchain-spicrawl
 
+[![smithery badge](https://smithery.ai/badge/spicrawl/web-scraper)](https://smithery.ai/servers/spicrawl/web-scraper)
+
+Also available as an MCP server: [Smithery](https://smithery.ai/servers/spicrawl/web-scraper) · [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.OfficialSpicrawl/mcp)
+
 [LangChain](https://docs.langchain.com) integration for [Spicrawl](https://docs.spicrawl.com), a web
 scraping API that returns any URL as clean markdown, optionally rendering JavaScript first.
 
