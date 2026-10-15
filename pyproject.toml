@@ -5,21 +5,43 @@ build-backend = "hatchling.build"
 [project]
 name = "langchain-spicrawl"
 version = "0.1.0"
-description = "An integration package connecting Spicrawl and LangChain"
+description = "LangChain integration for Spicrawl: a document loader and an agent tool that read web pages as Markdown"
 license = { text = "MIT" }
 readme = "README.md"
 authors = [{ name = "Spicrawl" }]
-keywords = ["langchain", "spicrawl", "web scraping", "document loader", "agent tool", "markdown", "rag"]
+keywords = [
+    "langchain",
+    "langchain-integration",
+    "spicrawl",
+    "web scraping",
+    "web scraper",
+    "document loader",
+    "agent tool",
+    "markdown",
+    "html to markdown",
+    "rag",
+    "retrieval augmented generation",
+    "llm",
+    "ai agents",
+    "scraping api",
+]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",
+    "Framework :: AsyncIO",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
+    "Topic :: Internet :: WWW/HTTP",
     "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Text Processing :: Markup :: Markdown",
     "Typing :: Typed",
 ]
 requires-python = ">=3.10.0,<4.0.0"
